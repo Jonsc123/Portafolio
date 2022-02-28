@@ -1,0 +1,153 @@
+body{
+    font-family: 'Questrial', sans-serif;
+    background: #F5F5F5;
+}
+
+html {
+    scroll-behavior: smooth;
+  }
+
+header{
+    background: #F5F5F5;
+}
+
+.nombre-apellido{
+    position: absolute;
+}
+
+.link{
+    text-decoration: none;
+    color:#000000;
+    transition: 500ms;
+
+}
+.link:hover{
+    
+    font-weight: bold;
+    color:#58909e;
+    text-decoration:underline;
+    
+}
+
+.menu-principal img{
+    padding-left: 8%;
+}
+
+.menu-principal p{
+    display:flex;
+    align-items: center;
+    font-weight: bold;
+    font-size: 1em;
+    vertical-align: middle;
+    padding:2%
+}
+
+.navegacion-principal{
+    position: absolute;
+    align-items: center;
+    top: 34.5px;
+    right: 5%;
+}
+
+.navegacion-principal li{
+    display: inline;
+    margin: 0 0 0 15px;
+    font-size: 1em;
+}
+
+.intro{
+    position: relative;
+    /*top: 120px;*/
+    right: 0;
+    padding-bottom: 5%;
+    padding-left: 5%;
+    margin-top: 5%;
+}
+
+.intro h1{
+    font-size: 3em;
+    font-weight: bold;
+    padding-left: 5%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    text-align:justify;
+}
+
+.intro p{
+    font-size: 2.5em;
+    padding-left: 5%;
+    margin-bottom: 25px;
+}
+
+.redes-sociales li{
+    padding-left: 5%;
+    display: inline;
+    margin: 0 15px 0 0;
+    font-size: 1.5em;
+}
+
+.img-perfil{
+    width: 20%;
+    float:right;
+    margin: 0 5% 20px 0;
+    border-radius: 90%;
+}
+
+.sobre-mi{
+    padding: 5% 10% 5% 10%;
+    background-color:rgb(205, 222, 236);
+}
+
+.sobre-mi h2{
+    
+    font-size: 2.5em;
+    font-weight: bold;
+}
+
+.sobre-mi p{
+    margin-top: 2%;
+    width: 75%;
+    font-size: 1.2em;
+}
+
+.skills-hobbie{
+    background-color: rgb(233, 233, 233);
+}
+
+.skills{
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.skills img{
+    padding: 10%;
+    padding-top: 48%;
+}
+
+.skills li{
+    display: inline-block;
+    text-align: left;
+    width: 14.3%;
+    vertical-align: bottom;
+    margin: 0 0.3%;
+    padding: 10px 50px 10px 10px;
+    box-sizing: border-box;
+    background-color: white;
+
+}
+
+.skills-hobbie h4, .experiencia-profesional h4{
+    text-align: center;
+    font-size: 2.5em;
+    font-weight: bold;
+    padding-bottom: 5%;
+    padding-top: 5%;
+}
+
+.icon{
+    transition: all .3s ease-in-out; 
+}
+.icon:hover{
+    transform: scale(1.5) translate(20%, -20%);
+}
